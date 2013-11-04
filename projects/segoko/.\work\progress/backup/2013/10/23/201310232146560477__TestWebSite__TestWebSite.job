@@ -1,0 +1,9 @@
+#Progress for job: TestWebSite
+#Wed Oct 23 21:46:59 SAST 2013
+jobId=TestWebSite
+endTime=1382557616477
+progress=0
+startTime=1382557614575
+note=Error occured\: null
+minimum=0
+maximum=1000

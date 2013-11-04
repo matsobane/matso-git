@@ -1,0 +1,54 @@
+TestWebSite: 2013-10-23 22:22:53,182 [main] DEBUG ogressPropertiesFileSerializer  - Deserializing file: .\work\progress/latest/TestWebSite__TestWebSite.job
+[non-job]: 2013-10-23 22:22:53,183 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\work\progress/latest/httpcollector-segoko.stop)
+TestWebSite: 2013-10-23 22:22:53,183 [main] INFO     com.norconex.jef.JobRunner  - Running TestWebSite: BEGIN (Wed Oct 23 22:22:53 SAST 2013)
+TestWebSite: 2013-10-23 22:22:53,184 [main] DEBUG ogressPropertiesFileSerializer  - Serializing file: .\work\progress/latest/TestWebSite__TestWebSite.job
+TestWebSite: 2013-10-23 22:22:53,192 [main] INFO .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Initializing crawl database...
+TestWebSite: 2013-10-23 22:22:53,471 [main] DEBUG .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Cleaning queue database...
+TestWebSite: 2013-10-23 22:22:53,473 [main] DEBUG .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Cleaning active database...
+TestWebSite: 2013-10-23 22:22:53,475 [main] DEBUG .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Cleaning invalid URLs database...
+TestWebSite: 2013-10-23 22:22:53,482 [main] DEBUG .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Cleaning sitemap database...
+TestWebSite: 2013-10-23 22:22:53,484 [main] DEBUG .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Cleaning cache database...
+TestWebSite: 2013-10-23 22:22:53,495 [main] DEBUG .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Caching valid URLs from last run (if applicable)...
+TestWebSite: 2013-10-23 22:22:53,886 [main] INFO .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Done initializing databases.
+[non-job]: 2013-10-23 22:22:54,185 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\work\progress/latest/httpcollector-segoko.stop)
+TestWebSite: 2013-10-23 22:22:54,245 [main] DEBUG ctor.http.crawler.URLProcessor  - ACCEPTED document URL. URL=http://www.google.com Filter=com.norconex.collector.http.filter.impl.ExtensionURLFilter@11a4c51[onMatch=EXCLUDE,extensions=jpg,gif,png,ico,css,js,caseSensitive=false]
+TestWebSite: 2013-10-23 22:22:54,245 [main] INFO ekgokoHttpCrawlerEventListener  - documentURLRejected not implemented
+TestWebSite: 2013-10-23 22:22:54,245 [main] DEBUG ctor.http.crawler.URLProcessor  - REJECTED document URL (no include filters matched). URL=http://www.google.com Filter=[no include filters matched]
+TestWebSite: 2013-10-23 22:22:54,247 [main] INFO p.crawler.CrawlStatus.REJECTED  -   REJECTED >   (0) http://www.google.com
+TestWebSite: 2013-10-23 22:22:54,248 [main] DEBUG ctor.http.crawler.URLProcessor  - ACCEPTED document URL. URL=http://www.khwinana.co.za Filter=com.norconex.collector.http.filter.impl.ExtensionURLFilter@11a4c51[onMatch=EXCLUDE,extensions=jpg,gif,png,ico,css,js,caseSensitive=false]
+TestWebSite: 2013-10-23 22:22:54,248 [main] INFO ekgokoHttpCrawlerEventListener  - documentURLRejected not implemented
+TestWebSite: 2013-10-23 22:22:54,249 [main] DEBUG ctor.http.crawler.URLProcessor  - REJECTED document URL (no include filters matched). URL=http://www.khwinana.co.za Filter=[no include filters matched]
+TestWebSite: 2013-10-23 22:22:54,250 [main] INFO p.crawler.CrawlStatus.REJECTED  -   REJECTED >   (0) http://www.khwinana.co.za
+TestWebSite: 2013-10-23 22:22:54,257 [main] DEBUG .crawler.HttpCrawlerEventFirer  - EVENT: Crawler Started. Crawler=TestWebSite
+TestWebSite: 2013-10-23 22:22:54,257 [main] INFO ekgokoHttpCrawlerEventListener  - crawlerStarted not implemented
+TestWebSite: 2013-10-23 22:22:54,259 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: RobotsTxt support enabled
+TestWebSite: 2013-10-23 22:22:54,259 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: RobotsMeta support enabled
+TestWebSite: 2013-10-23 22:22:54,259 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Sitemap support enabled
+TestWebSite: 2013-10-23 22:22:54,260 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Crawling URLs...
+TestWebSite: 2013-10-23 22:22:54,268 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Crawler thread #1 started.
+TestWebSite: 2013-10-23 22:22:54,272 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Crawler thread #2 started.
+TestWebSite: 2013-10-23 22:22:54,276 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Re-processing orphan URLs (if any)...
+TestWebSite: 2013-10-23 22:22:54,292 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Crawler thread #1 started.
+TestWebSite: 2013-10-23 22:22:54,294 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Crawler thread #2 started.
+TestWebSite: 2013-10-23 22:22:54,320 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Reprocessed 0 orphan URLs...
+TestWebSite: 2013-10-23 22:22:54,321 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Deleting remaining orphan URLs (if any)...
+TestWebSite: 2013-10-23 22:22:54,321 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Crawler thread #1 started.
+TestWebSite: 2013-10-23 22:22:54,322 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Crawler thread #2 started.
+TestWebSite: 2013-10-23 22:22:54,331 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Deleted 0 orphan URLs...
+TestWebSite: 2013-10-23 22:22:54,331 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Crawler "TestWebSite" finishing: committing documents.
+TestWebSite: 2013-10-23 22:22:54,333 [main] INFO ector.http.crawler.HttpCrawler  - Deleting crawler downloads directory: /home/matsobane/Dev/projects/segoko/.\work\crawledFiles/downloads/TestWebSite
+TestWebSite: 2013-10-23 22:22:54,339 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: 2 URLs processed in 0:00:00.074 for "TestWebSite".
+TestWebSite: 2013-10-23 22:22:54,339 [main] DEBUG ector.http.crawler.HttpCrawler  - TestWebSite: Removing empty directories
+TestWebSite: 2013-10-23 22:22:54,342 [main] DEBUG .crawler.HttpCrawlerEventFirer  - EVENT: Crawler finished. Crawler=TestWebSite
+TestWebSite: 2013-10-23 22:22:54,343 [main] INFO ekgokoHttpCrawlerEventListener  - crawlerFinished not implemented
+TestWebSite: 2013-10-23 22:22:54,343 [main] INFO ector.http.crawler.HttpCrawler  - TestWebSite: Crawler "TestWebSite" completed.
+TestWebSite: 2013-10-23 22:22:54,343 [main] INFO .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Closing crawl database...
+TestWebSite: 2013-10-23 22:22:54,747 [main] DEBUG PoolingClientConnectionManager  - Connection manager is shutting down
+TestWebSite: 2013-10-23 22:22:54,749 [main] DEBUG PoolingClientConnectionManager  - Connection manager shut down
+TestWebSite: 2013-10-23 22:22:54,749 [main] INFO     com.norconex.jef.JobRunner  - Running TestWebSite: END (Wed Oct 23 22:22:53 SAST 2013)
+TestWebSite: 2013-10-23 22:22:54,750 [main] DEBUG ogressPropertiesFileSerializer  - Serializing file: .\work\progress/latest/TestWebSite__TestWebSite.job
+TestWebSite: 2013-10-23 22:22:54,751 [main] DEBUG ogressPropertiesFileSerializer  - Deserializing file: .\work\progress/latest/TestWebSite__TestWebSite.job
+TestWebSite: 2013-10-23 22:22:54,752 [main] DEBUG ogressPropertiesFileSerializer  - TestWebSite last active time: Wed Oct 23 22:22:54 SAST 2013
+TestWebSite: 2013-10-23 22:22:54,753 [main] DEBUG conex.jef.progress.JobProgress  - Progress changed: job='TestWebSite'; progress=0; note='null'.
+TestWebSite: 2013-10-23 22:22:54,753 [main] DEBUG conex.jef.progress.JobProgress  - Progress changed: job='TestWebSite'; progress=0; note='null'.
+TestWebSite: 2013-10-23 22:22:54,758 [main] DEBUG conex.jef.progress.JobProgress  - Progress changed: job='TestWebSite'; progress=0; note='null'.

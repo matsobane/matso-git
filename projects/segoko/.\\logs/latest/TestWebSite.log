@@ -1,0 +1,43 @@
+TestWebSite: 2013-10-23 21:17:39,775 [main] DEBUG ogressPropertiesFileSerializer  - Deserializing file: .\\progress/latest/TestWebSite__TestWebSite.job
+[non-job]: 2013-10-23 21:17:39,783 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+TestWebSite: 2013-10-23 21:17:39,815 [main] INFO     com.norconex.jef.JobRunner  - Running TestWebSite: BEGIN (Wed Oct 23 21:17:39 SAST 2013)
+TestWebSite: 2013-10-23 21:17:39,817 [main] DEBUG ogressPropertiesFileSerializer  - Serializing file: .\\progress/latest/TestWebSite__TestWebSite.job
+TestWebSite: 2013-10-23 21:17:39,854 [main] INFO .db.impl.MapDBCrawlURLDatabase  - TestWebSite: Initializing crawl database...
+TestWebSite: 2013-10-23 21:17:40,183 [main] FATAL     com.norconex.jef.JobRunner  - Fatal error occured in job: TestWebSite
+TestWebSite: 2013-10-23 21:17:40,184 [main] INFO     com.norconex.jef.JobRunner  - Running TestWebSite: END (Wed Oct 23 21:17:39 SAST 2013)
+TestWebSite: 2013-10-23 21:17:40,184 [main] DEBUG ogressPropertiesFileSerializer  - Serializing file: .\\progress/latest/TestWebSite__TestWebSite.job
+TestWebSite: 2013-10-23 21:17:40,186 [main] FATAL     com.norconex.jef.JobRunner  - Job suite execution failed: TestWebSite
+java.io.IOError: java.io.FileNotFoundException: /crawler/workdir/path/crawldb/TestWebSite/mapdb (No such file or directory)
+	at org.mapdb.Volume$FileChannelVol.<init>(Volume.java:641)
+	at org.mapdb.Volume.volumeForFile(Volume.java:180)
+	at org.mapdb.Volume$1.createIndexVolume(Volume.java:201)
+	at org.mapdb.StoreDirect.<init>(StoreDirect.java:192)
+	at org.mapdb.StoreWAL.<init>(StoreWAL.java:49)
+	at org.mapdb.DBMaker.makeEngine(DBMaker.java:652)
+	at org.mapdb.DBMaker.make(DBMaker.java:620)
+	at com.norconex.collector.http.db.impl.MapDBCrawlURLDatabase.createDB(MapDBCrawlURLDatabase.java:121)
+	at com.norconex.collector.http.db.impl.MapDBCrawlURLDatabase.<init>(MapDBCrawlURLDatabase.java:79)
+	at com.norconex.collector.http.db.impl.DefaultCrawlURLDatabaseFactory.createCrawlURLDatabase(DefaultCrawlURLDatabaseFactory.java:37)
+	at com.norconex.collector.http.crawler.HttpCrawler.startExecution(HttpCrawler.java:121)
+	at com.norconex.jef.AbstractResumableJob.execute(AbstractResumableJob.java:52)
+	at com.norconex.jef.JobRunner.runJob(JobRunner.java:193)
+	at com.norconex.jef.JobRunner.runSuite(JobRunner.java:94)
+	at com.norconex.collector.http.HttpCollector.crawl(HttpCollector.java:172)
+	at za.co.moromasystems.SegokoMain.initHttpCollector(SegokoMain.java:50)
+	at za.co.moromasystems.SegokoMain.main(SegokoMain.java:35)
+Caused by: java.io.FileNotFoundException: /crawler/workdir/path/crawldb/TestWebSite/mapdb (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:241)
+	at org.mapdb.Volume$FileChannelVol.<init>(Volume.java:638)
+	... 16 more
+TestWebSite: 2013-10-23 21:17:40,191 [main] INFO za.co.moromasystems.SegokoMain  - Exit Segoko
+[non-job]: 2013-10-23 21:17:40,787 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:41,788 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:42,789 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:43,790 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:44,791 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:44,855 [activityTracker_TestWebSite] DEBUG     com.norconex.jef.JobRunner  - TestWebSite last activity: Wed Oct 23 21:17:44 SAST 2013
+[non-job]: 2013-10-23 21:17:44,858 [activityTracker_TestWebSite] DEBUG ogressPropertiesFileSerializer  - Serializing file: .\\progress/latest/TestWebSite__TestWebSite.job
+[non-job]: 2013-10-23 21:17:45,792 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:46,793 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
+[non-job]: 2013-10-23 21:17:47,794 [Thread-0] DEBUG f.suite.FileStopRequestHandler  - Stop file exists:false (/home/matsobane/Dev/projects/segoko/.\\progress/latest/httpcollector-template.stop)
